@@ -1,0 +1,34 @@
+*twiliocall* makes a phone call using Vim via twilio.
+
+Author: dictav <dictav@gmail.com>
+License: The MIT License
+
+==============================================================================
+CONTENTS                                           *sonictemplate-vim-contents*
+
+Introduction           |twiliocall-vim-introduction|
+Setup                  |twiliocall-vim-setup|
+Usage                  |twiliocall-vim-usage|
+
+==============================================================================
+INTRODUCTION                                      *twiliocall-vim-introduction*
+
+*TwilioCall* is a Vim plug-in to easily make a phone call 
+
+==============================================================================
+SETUP                                                   *twiliocall-vim-setup*
+>
+  let g:twiliocall_from = '+81xxxxxxxxx'
+  let g:twiliocall_sid = 'your twilio account sid'
+  let g:twiliocall_auth_token = 'your twilio auth token'
+<
+==============================================================================
+USAGE                                                    *twiliocall-vim-usage*
+
+Make a new phone call
+>
+  :TwilioCall +81xxxxxxxx "message"
+<
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
